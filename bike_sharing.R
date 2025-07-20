@@ -116,6 +116,6 @@ all_trips_v2 %>%
 ggplot(data = all_trips_v2, mapping =geom_point(aes(x = weekday, y = number_of_rides))
        
        
-       ggplot(all_trips_v2, aes(x = member_casual, y = ride_length, fill = member_casual)) 
+
        
 
